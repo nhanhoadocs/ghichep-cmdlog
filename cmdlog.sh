@@ -44,6 +44,8 @@ elif cat /etc/*release | grep ^NAME | grep Ubuntu > /dev/null 2>&1; then
         OS_VER="Ubuntu16"
     elif [ $(lsb_release -c | grep Codename | awk '{print $2}') == 'bionic' ] ;then 
         OS_VER="Ubuntu18"
+    elif [ $(lsb_release -c | grep Codename | awk '{print $2}') == 'focal' ] ;then 
+        OS_VER="Ubuntu20"
     fi 
 else
     echo "Script doesn't support or verify this OS type/version"

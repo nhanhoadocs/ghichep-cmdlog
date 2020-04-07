@@ -4,6 +4,12 @@ Thực hiện cài đặt cấu hình
 curl -Lso- https://raw.githubusercontent.com/nhanhoadocs/ghichep-cmdlog/master/cmdlog.sh | bash
 ```
 
+Hướng dẫn thao tác 
+![](images/cmd1.png)
+
+Logout và Login lại 
+![](images/cmd2.png)
+
 Các phiên bản OS hỗ trợ 
 - CentOS6
 - CentOS7 
@@ -11,3 +17,6 @@ Các phiên bản OS hỗ trợ
 - Ubuntu14
 - Ubuntu16
 - Ubuntu18 
+- Ubuntu20
+
+Hướng dẫn chi tiết: https://news.cloud365.vn/tools-log-all-command-of-user-in-linux/
